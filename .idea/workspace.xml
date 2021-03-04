@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b04a0128-bc73-4616-a6a2-5d935a74d1a3" name="Default Changelist" comment="jinjing" />
+    <list default="true" id="b04a0128-bc73-4616-a6a2-5d935a74d1a3" name="Default Changelist" comment="222">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +34,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.FLANNMatchORB ">
+    <configuration name="BruteForceORB " type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="depthFromStero" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stereo_depth_estimator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stereo_depth_estimator/BruteForceORB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BruteForceORB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="depthFromStero" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,35 +144,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stereo_depth_estimator_sgbm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="depthFromStero" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stereo_depth_estimator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stereo_depth_estimator/stereo_depth_estimator_sgbm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.BruteForceORB" />
+      <item itemvalue="Python.BruteForceORB " />
+      <item itemvalue="Python.FLANNMatchORB" />
+      <item itemvalue="Python.FLANNMatchORB " />
+      <item itemvalue="Python.ORB" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.FLANNMatchORB " />
+        <item itemvalue="Python.BruteForceORB " />
         <item itemvalue="Python.FLANNMatchORB" />
         <item itemvalue="Python.BruteForceORB" />
         <item itemvalue="Python.ORB" />
-        <item itemvalue="Python.stereo_depth_estimator_sgbm" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +171,7 @@
       <updated>1614808561715</updated>
       <workItem from="1614808563704" duration="2756000" />
       <workItem from="1614846273637" duration="2294000" />
-      <workItem from="1614876797357" duration="6630000" />
+      <workItem from="1614876797357" duration="7584000" />
     </task>
     <task id="LOCAL-00001" summary="jinjing">
       <created>1614882442063</created>
@@ -171,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614882442063</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="222">
+      <created>1614883797392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614883797392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,49 +207,58 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jinjing" />
-    <option name="LAST_COMMIT_MESSAGE" value="jinjing" />
+    <MESSAGE value="222" />
+    <option name="LAST_COMMIT_MESSAGE" value="222" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1082" height="220" key="GridCell.Tab.0.bottom" timestamp="1614883510635">
+    <state x="168" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614884096879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614883510635" />
-    <state width="1082" height="220" key="GridCell.Tab.0.center" timestamp="1614883510635">
+    <state x="168" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614884096879" />
+    <state x="243" y="101" width="940" height="604" key="DiffContextDialog" timestamp="1614884097283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614883510635" />
-    <state width="1082" height="220" key="GridCell.Tab.0.left" timestamp="1614883510635">
+    <state x="243" y="101" width="940" height="604" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1614884097283" />
+    <state width="1082" height="220" key="GridCell.Tab.0.bottom" timestamp="1614884475550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614883510635" />
-    <state width="1082" height="220" key="GridCell.Tab.0.right" timestamp="1614883510635">
+    <state width="1082" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614884475550" />
+    <state width="1082" height="220" key="GridCell.Tab.0.center" timestamp="1614884475550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614883510635" />
-    <state width="1082" height="182" key="GridCell.Tab.1.bottom" timestamp="1614882182579">
+    <state width="1082" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614884475550" />
+    <state width="1082" height="220" key="GridCell.Tab.0.left" timestamp="1614884475550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="182" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614882182579" />
-    <state width="1082" height="182" key="GridCell.Tab.1.center" timestamp="1614882182579">
+    <state width="1082" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614884475550" />
+    <state width="1082" height="220" key="GridCell.Tab.0.right" timestamp="1614884475550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="182" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614882182579" />
-    <state width="1082" height="182" key="GridCell.Tab.1.left" timestamp="1614882182579">
+    <state width="1082" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614884475550" />
+    <state width="1082" height="182" key="GridCell.Tab.1.bottom" timestamp="1614883990936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="182" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614882182579" />
-    <state width="1082" height="182" key="GridCell.Tab.1.right" timestamp="1614882182579">
+    <state width="1082" height="182" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614883990936" />
+    <state width="1082" height="182" key="GridCell.Tab.1.center" timestamp="1614883990936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1082" height="182" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614882182579" />
-    <state x="306" y="136" key="Vcs.Push.Dialog.v2" timestamp="1614882839249">
+    <state width="1082" height="182" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614883990936" />
+    <state width="1082" height="182" key="GridCell.Tab.1.left" timestamp="1614883990936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="306" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614882839249" />
-    <state x="518" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614882820537">
+    <state width="1082" height="182" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614883990936" />
+    <state width="1082" height="182" key="GridCell.Tab.1.right" timestamp="1614883990936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="518" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1614882820537" />
+    <state width="1082" height="182" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614883990936" />
+    <state x="306" y="136" key="Vcs.Push.Dialog.v2" timestamp="1614883835680">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="306" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614883835680" />
+    <state x="518" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614883848305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="518" y="316" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1614883848305" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -245,8 +270,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/depthFromStero$stereo_depth_estimator_sgbm.coverage" NAME="stereo_depth_estimator_sgbm Coverage Results" MODIFIED="1614855624148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
     <SUITE FILE_PATH="coverage/depthFromStero$BFMatchORB.coverage" NAME="FLANNMatchORB Coverage Results" MODIFIED="1614877821244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
-    <SUITE FILE_PATH="coverage/depthFromStero$FLANNMatchORB__1_.coverage" NAME="FLANNMatchORB  Coverage Results" MODIFIED="1614883510620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
+    <SUITE FILE_PATH="coverage/depthFromStero$FLANNMatchORB__1_.coverage" NAME="FLANNMatchORB  Coverage Results" MODIFIED="1614884475550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
     <SUITE FILE_PATH="coverage/depthFromStero$FLANNMatchORB.coverage" NAME="FLANNMatchORB Coverage Results" MODIFIED="1614877231263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
+    <SUITE FILE_PATH="coverage/depthFromStero$BruteForceORB__1_.coverage" NAME="BruteForceORB  Coverage Results" MODIFIED="1614884135242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
     <SUITE FILE_PATH="coverage/depthFromStero$ORB.coverage" NAME="ORB Coverage Results" MODIFIED="1614876930517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stereo_depth_estimator" />
   </component>
 </project>
