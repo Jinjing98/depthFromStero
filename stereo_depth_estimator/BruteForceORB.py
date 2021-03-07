@@ -5,10 +5,10 @@ img1 = cv.imread('data/1/left//00000.png',cv.IMREAD_GRAYSCALE)          # queryI
 img2 = cv.imread('data/1/right/00000.png',cv.IMREAD_GRAYSCALE)         # trainImage
 # Initiate SIFT detector
 # https://www.pyimagesearch.com/2015/07/16/where-did-sift-and-surf-go-in-opencv-3/
-sift = cv.xfeatures2d.SIFT_create()
-# find the keypoints and descriptors with SIFT
-kp1, des1 = sift.detectAndCompute(img1,None)
-kp2, des2 = sift.detectAndCompute(img2,None)
+# sift = cv.xfeatures2d.SIFT_create()
+# # find the keypoints and descriptors with SIFT
+# kp1, des1 = sift.detectAndCompute(img1,None)
+# kp2, des2 = sift.detectAndCompute(img2,None)
 
 
 orb = cv.ORB_create()
@@ -26,7 +26,7 @@ kp2, des2 = orb.compute(img2, kp2)
 
 # BFMatcher with default params
 bf = cv.BFMatcher()
-matches = bf.knnMatch(des1,des2,k=2)
+matches = bf.knnMatch(des1,des2,k=2)  #find the k best matches
 # Apply ratio test
 good = []
 for m,n in matches:
