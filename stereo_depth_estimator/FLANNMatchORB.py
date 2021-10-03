@@ -96,7 +96,7 @@ def get_matched_idx_pos_disparity(img1_path,img2_path):
     num_MP = 0
     matched_idx = []
     for i, (m, n) in enumerate(matches):
-        if m.distance < 0.6 * n.distance:  # top two distances m n, a smaller parameter means a higher precision n less matching
+        if m.distance < 0.4 * n.distance:  # top two distances m n, a smaller parameter means a higher precision n less matching
             matchesMask[i] = [1, 0]  # this mask encode connect the best m or the second best n
             num_MP += 1
             matched_idx.append([m.queryIdx, m.trainIdx])
